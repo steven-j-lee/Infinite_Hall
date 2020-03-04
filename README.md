@@ -1,2 +1,2 @@
 # Infinite_Burnside
-hello
+infinite burnside inspired by scp-087
