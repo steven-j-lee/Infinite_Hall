@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: ff35b13eb05010a43afe799bf8925eee
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - stairsPrefab: {fileID: 2333219360452884561, guid: 05cc8824113e602449c5d30bd89e02b9,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
