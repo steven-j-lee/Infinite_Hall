@@ -4,33 +4,56 @@ using UnityEngine;
 
 public class player_movement : MonoBehaviour
 {
-    private float speed = 5.0f;
+    [SerializeField] private float speed;
+    [SerializeField] private float jumpForce;
+    Rigidbody playerBody;
+    Vector3 orientation;
+    float jumpLimit = 0.75f;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        playerBody = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.RightArrow))
-        {
-            transform.position += Vector3.forward * speed * Time.deltaTime;
+        //disabled jump until fixed
+       // Jump();
+    }
 
-        }
-        if (Input.GetKey(KeyCode.LeftArrow))
+    private void FixedUpdate()
+    {
+        Walk();
+    }
+
+    private void Jump()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            transform.position += Vector3.back * speed * Time.deltaTime;
-        }
-        if (Input.GetKey(KeyCode.UpArrow))
-        {
-            transform.position += Vector3.left * speed * Time.deltaTime;
-        }
-        if (Input.GetKey(KeyCode.DownArrow))
-        {
-            transform.position += Vector3.right * speed * Time.deltaTime;
+            if (IsGrounded())
+                playerBody.AddForce(0, jumpForce, 0, ForceMode.Impulse);
         }
     }
+
+    private bool IsGrounded()
+    {
+        //Debug.DrawRay(transform.position, Vector3.down * speed, Color.red);
+        return Physics.Raycast(transform.position, Vector3.down, jumpLimit);
+      
+    }
+
+    private void Walk()
+    {
+        float horizontal = Input.GetAxisRaw("Horizontal");
+        float vertical = Input.GetAxisRaw("Vertical");
+
+        Vector3 move = new Vector3(horizontal, 0, vertical) * speed * Time.fixedDeltaTime;
+
+        Vector3 newPosition = playerBody.position + playerBody.transform.TransformDirection(move);
+        playerBody.MovePosition(newPosition);
+    }
+
+
 }
