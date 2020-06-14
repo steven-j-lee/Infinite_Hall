@@ -19,8 +19,7 @@ public class player_movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //disabled jump until fixed
-       // Jump();
+
     }
 
     private void FixedUpdate()
@@ -28,14 +27,6 @@ public class player_movement : MonoBehaviour
         Walk();
     }
 
-    private void Jump()
-    {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            if (IsGrounded())
-                playerBody.AddForce(0, jumpForce, 0, ForceMode.Impulse);
-        }
-    }
 
     private bool IsGrounded()
     {
