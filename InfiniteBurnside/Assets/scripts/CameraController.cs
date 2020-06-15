@@ -11,6 +11,7 @@ public class CameraController : MonoBehaviour
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
+        yaw = 270;
     }
 
     void Update()
@@ -19,5 +20,7 @@ public class CameraController : MonoBehaviour
         pitch -= verticalSpeed * Input.GetAxis("Mouse Y");
 
         transform.eulerAngles = new Vector3(pitch, yaw, 0.0f);
+
+        transform.parent.eulerAngles = new Vector3(0.0f, yaw, 0.0f);
     }
 }
