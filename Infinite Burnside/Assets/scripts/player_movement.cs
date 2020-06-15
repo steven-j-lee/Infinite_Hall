@@ -8,7 +8,7 @@ public class player_movement : MonoBehaviour
     [SerializeField] private float jumpForce;
     Rigidbody playerBody;
     Vector3 orientation;
-    float jumpLimit = 0.75f;
+    float jumpLimit = 1f;
 
     // Start is called before the first frame update
     void Start()
@@ -16,15 +16,9 @@ public class player_movement : MonoBehaviour
         playerBody = GetComponent<Rigidbody>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     private void FixedUpdate()
     {
-        Walk();
+            Walk();
     }
 
 

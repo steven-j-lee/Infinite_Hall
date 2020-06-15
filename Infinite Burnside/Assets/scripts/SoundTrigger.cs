@@ -38,7 +38,7 @@ public class SoundTrigger : MonoBehaviour
         if (!hasPlayed)
         {
             soundToMute.mute = true;
-            sound.PlayOneShot(audioFile, volume);
+            //sound.PlayOneShot(audioFile, volume);
             hasPlayed = true;
             Destroy(lights);
         }
