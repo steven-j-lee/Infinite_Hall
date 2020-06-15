@@ -10,13 +10,13 @@
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 
-aInfiniteBurnside/[Ll]ibrary/
-aInfiniteBurnside/[Tt]emp/
-aInfiniteBurnside/[Oo]bj/
-aInfiniteBurnside/[Bb]uild/
-aInfiniteBurnside/[Bb]uilds/
-aInfiniteBurnside/[Ll]ogs/
-aInfiniteBurnside/[Mm]emoryCaptures/
+InfiniteBurnside/[Ll]ibrary/
+InfiniteBurnside/[Tt]emp/
+InfiniteBurnside/[Oo]bj/
+InfiniteBurnside/[Bb]uild/
+InfiniteBurnside/[Bb]uilds/
+InfiniteBurnside/[Ll]ogs/
+InfiniteBurnside/[Mm]emoryCaptures/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
