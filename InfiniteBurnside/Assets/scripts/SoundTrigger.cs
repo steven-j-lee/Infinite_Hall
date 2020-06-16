@@ -6,7 +6,7 @@ public class SoundTrigger : MonoBehaviour
 {
     [SerializeField] private AudioClip audioFile;
     private AudioSource sound;
-    [SerializeField] float volume = 0f;
+    [SerializeField] float volume = 1f;
     private bool hasPlayed = false;
 
     //lights
@@ -38,7 +38,7 @@ public class SoundTrigger : MonoBehaviour
         if (!hasPlayed)
         {
             soundToMute.mute = true;
-            //sound.PlayOneShot(audioFile, volume);
+            sound.PlayOneShot(audioFile, volume);
             hasPlayed = true;
             Destroy(lights);
         }
