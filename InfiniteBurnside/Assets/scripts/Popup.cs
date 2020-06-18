@@ -33,7 +33,7 @@ public class Popup : MonoBehaviour
         if (!hasPlayed)
         {
             hasPlayed = true;
-            sound.PlayOneShot(scareSound, 5f);
+            sound.PlayOneShot(scareSound, 2f);
         }
     }
 

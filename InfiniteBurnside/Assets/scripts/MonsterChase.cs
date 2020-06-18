@@ -27,6 +27,6 @@ public class MonsterChase : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         isChasing = true;
-        sound.PlayOneShot(scream, 20f);
+        sound.PlayOneShot(scream, 8f);
     }
 }
