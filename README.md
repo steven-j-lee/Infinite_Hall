@@ -1,2 +1,3 @@
 # Infinite_Burnside
-infinite burnside inspired by scp-087
+Experimental horror game inspired by scp-087
+
