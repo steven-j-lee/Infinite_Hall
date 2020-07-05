@@ -25,16 +25,16 @@ public class ProceduralStairs : MonoBehaviour
             pos.y -= 9.4f;
             //pos.z = pos.z > 1 ? 0 : 7.3f;
             pos.z = pos.z > 1 ? 0 : 0.2f;
-        /*
+        
             if(stairsNum % 2 != 0)
             {
-                pos.x = pos.x > 1 ? 0 : -16.43f;
+                pos.x = pos.x > 1 ? 0 : 6.43f;
             }
             else if(stairsNum % 2 == 0)
             {
-                pos.x = pos.x > 1 ? 0 : -10.43f;
+                pos.x = pos.x > 1 ? 0 : 0.43f;
             }
-   */
+   
             GameObject newStairs = Instantiate(stairsPrefab, pos, rot);
             SetUpNewStairs(newStairs);
             lastStairs = newStairs;
