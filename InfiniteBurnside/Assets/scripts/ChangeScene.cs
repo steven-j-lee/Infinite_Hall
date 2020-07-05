@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ChangeScene : MonoBehaviour
 {
+    [SerializeField] private int level;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +20,7 @@ public class ChangeScene : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene(1);
+        if(other.tag == "Player")
+        SceneManager.LoadScene(level);
     }
 }

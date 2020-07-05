@@ -9,6 +9,7 @@ public class MonsterChase : MonoBehaviour
     [SerializeField] AudioClip scream;
 
     private AudioSource sound;
+    private bool hasPlayed = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,13 +21,20 @@ public class MonsterChase : MonoBehaviour
     {
         if (isChasing)
         {
-            monster.transform.position -= transform.right * 8f * Time.deltaTime;
+            monster.transform.position += transform.right * 10f * Time.deltaTime;
         }
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        isChasing = true;
-        sound.PlayOneShot(scream, 8f);
+        if (other.tag == "Player")
+        {
+            if (!hasPlayed)
+            {
+                sound.PlayOneShot(scream, 1f);
+                hasPlayed = true;
+            }
+            isChasing = true;
+        }
     }
 }

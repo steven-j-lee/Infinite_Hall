@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Hallway.unity
     guid: 5fe276ce46f4a4f40a3026606b825df4
+  - enabled: 1
+    path: Assets/Scenes/stairsScene.unity
+    guid: a0ac9e40cdce0574ba84d50f85ac8880
   m_configObjects: {}

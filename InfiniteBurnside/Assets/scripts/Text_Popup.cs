@@ -9,14 +9,14 @@ public class Text_Popup : MonoBehaviour
     //[SerializeField] private GameObject knockDisable;
     [SerializeField] private GameObject disableGravity;
     [SerializeField] private GameObject chair;
-
-    private AudioSource sound;
+    private AudioSource soundSource;
     private Rigidbody painting;
 
     // Start is called before the first frame update
     void Start()
     {
-       //sound = knockDisable.GetComponent<AudioSource>();
+        //sound = knockDisable.GetComponent<AudioSource>();
+        soundSource = GetComponent<AudioSource>();
         painting = disableGravity.GetComponent<Rigidbody>();
 
     }
@@ -39,6 +39,7 @@ public class Text_Popup : MonoBehaviour
 
     private IEnumerator Delay()
     {
+        soundSource.Play(1);
         chair.transform.Rotate(90f, 0f, 0f);
         yield return new WaitForSeconds(2f);
         Destroy(key);
