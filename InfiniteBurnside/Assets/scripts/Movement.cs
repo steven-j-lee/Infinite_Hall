@@ -11,10 +11,16 @@ public class Movement : MonoBehaviour
 
     private Vector3 moveDirection = Vector3.zero;
 
+    //array of footsteps
+    [SerializeField] private AudioClip[] footSteps;
+    private AudioSource source;
+
     void Start()
     {
         characterController = GetComponent<CharacterController>();
+        source = GetComponent<AudioSource>();
     }
+
 
     void Update()
     {
@@ -27,4 +33,18 @@ public class Movement : MonoBehaviour
         // Move the controller
         characterController.Move(moveDirection * Time.deltaTime);
     }
+
+    private AudioClip getRandom(AudioClip[] array)
+    {
+        return array[UnityEngine.Random.Range(0, array.Length)];
+
+    }
+
+    private void playStep()
+    {
+        AudioClip foot = getRandom(footSteps);
+        source.PlayOneShot(foot);
+    }
+
+
 }
