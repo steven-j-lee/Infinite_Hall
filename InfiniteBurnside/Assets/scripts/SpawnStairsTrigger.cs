@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SpawnStairsTrigger : MonoBehaviour
 {
+
     //tells the stairs to create another staircase
     private void OnTriggerEnter(Collider other)
     {

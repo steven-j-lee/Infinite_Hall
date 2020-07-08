@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Collections;
 using UnityEngine;
 using TMPro;
 
@@ -7,9 +8,14 @@ public class ProceduralStairs : MonoBehaviour
     [SerializeField] private GameObject stairsPrefab;
     [SerializeField] private GameObject lastStairs;
 
-    private int stairsNum = 1;
-
     public static System.Action OnTriggerNewStairs;
+
+    public int StairsNum { get; private set; }
+
+    private void Awake()
+    {
+        this.StairsNum = 0;
+    }
 
     void Start()
     {
@@ -18,30 +24,29 @@ public class ProceduralStairs : MonoBehaviour
 
     private void CreateNewStairs()
     {
-            float yRot = lastStairs.transform.rotation.eulerAngles.y > 10 ? 0 : 180;
-            Quaternion rot = Quaternion.Euler(new Vector3(0, yRot, 0));
-            Vector3 pos = lastStairs.transform.position;
-            pos.y -= 9.4f;
-            pos.z = pos.z > 1 ? 0 : 0.2f;
-        
-            if(stairsNum % 2 != 0)
-            {
-                pos.x = pos.x > 1 ? 0 : 6.43f;
-            }
-            else
-            {
-                pos.x = pos.x > 1 ? 0 : 0.43f;
-            }
-   
-            GameObject newStairs = Instantiate(stairsPrefab, pos, rot);
-            SetUpNewStairs(newStairs);
-            lastStairs = newStairs;
-       
+        float yRot = lastStairs.transform.rotation.eulerAngles.y > 10 ? 0 : 180;
+        Quaternion rot = Quaternion.Euler(new Vector3(0, yRot, 0));
+        Vector3 pos = lastStairs.transform.position;
+        pos.y -= 9.4f;
+        pos.z = pos.z > 1 ? 0 : 0.2f;
+
+        if (this.StairsNum % 2 == 0)
+        {
+            pos.x = pos.x > 1 ? 0 : 6.13f;
+        }
+        else
+        {
+            pos.x = pos.x > 1 ? 0 : 0.43f;
+        }
+
+        GameObject newStairs = Instantiate(stairsPrefab, pos, rot);
+        SetUpNewStairs(newStairs);
+        lastStairs = newStairs;
     }
 
     private void SetUpNewStairs(GameObject newStairs)
     {
-        stairsNum++;
-        newStairs.GetComponentInChildren<TextMeshPro>().text = (stairsNum).ToString();
+        this.StairsNum++;
+        newStairs.GetComponentInChildren<TextMeshPro>().text = (this.StairsNum).ToString();
     }
 }
