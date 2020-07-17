@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{2883F962-ED99-A6DB-6340-A24CB24B98E5}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/MonsterChase.cs">
+    <Files>
+      <File FileName="Assets/scripts/CameraController.cs" Line="24" Column="73" />
+      <File FileName="Assets/scripts/Popup.cs" />
+      <File FileName="Assets/scripts/MonsterChase.cs" Line="24" Column="62" />
+      <File FileName="Assets/scripts/Text_Popup.cs" />
+      <File FileName="Assets/scripts/SoundTriggerButNotMute.cs" />
+      <File FileName="Assets/scripts/ChangeScene.cs" />
+      <File FileName="Assets/scripts/SpawnStairsTrigger.cs" />
+      <File FileName="Assets/scripts/StairsRandomSound.cs" />
+      <File FileName="Assets/scripts/SoundTrigger.cs" />
+      <File FileName="Assets/scripts/ShadowMove.cs" />
+      <File FileName="Assets/scripts/PlayWhisper.cs" />
+      <File FileName="Assets/scripts/StairsTriggerSounds.cs" />
+      <File FileName="Assets/scripts/Movement.cs" />
+      <File FileName="Assets/scripts/EndDemo.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Assets/scripts/Monster_Disappear.cs" NotebookId="1" />
+      <File FileName="Assets/scripts/ProceduralStairs.cs" NotebookId="1" />
+      <File FileName="Assets/scripts/Woman_cry.cs" NotebookId="1" />
+      <File FileName="Assets/scripts/ChickenSpawnStairs.cs" NotebookId="1" />
+      <File FileName="Assets/scripts/RandomEventGenerator.cs" NotebookId="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="edb68d02-8a31-495e-a0ac-c05d266a84bb" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
