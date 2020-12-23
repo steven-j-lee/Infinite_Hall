@@ -18,6 +18,9 @@ public class Movement : MonoBehaviour
 
     //Coroutine for steps
     private Coroutine footStepSound;
+    
+    //variable to check whether player is moving
+    private Vector3 lastPosUpdate = new Vector3(0, 0, 0);
 
     void Start()
     {
@@ -26,7 +29,7 @@ public class Movement : MonoBehaviour
     }
 
 
-    void Update()
+    void FixedUpdate()
     {
         moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0.0f, Input.GetAxis("Vertical"));
         moveDirection *= speed;
@@ -46,18 +49,11 @@ public class Movement : MonoBehaviour
         moveDirection = this.transform.TransformDirection(moveDirection);
         // Move the controller
         characterController.Move(moveDirection * Time.deltaTime);
-
-        //play foot step sound
-        if ((Input.GetKeyDown(KeyCode.W)))
-        {
-            footStepSound = StartCoroutine(Delay());
-        }
-        else if ((Input.GetKeyUp(KeyCode.W)))
-        {
-            StopCoroutine(footStepSound);
-        }
-
+        
     }
+    
+    
+    //functions for foot steps
 
     private AudioClip getRandom(AudioClip[] array)
     {
@@ -65,7 +61,7 @@ public class Movement : MonoBehaviour
 
     }
 
-    private void playStep()
+    private void PlayStep()
     {
         AudioClip foot = getRandom(footSteps);
         source.PlayOneShot(foot);
@@ -75,7 +71,7 @@ public class Movement : MonoBehaviour
     {
         while (true)
         {
-            playStep();
+            PlayStep();
             yield return new WaitForSeconds(0.8f);
         }
     }

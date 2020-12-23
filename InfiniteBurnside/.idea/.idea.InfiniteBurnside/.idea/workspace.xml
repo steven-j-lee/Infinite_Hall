@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cc27343c-a485-48ef-b47a-315078f33901" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Hallway.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Hallway.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/entrance.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/entrance.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/stairsScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/stairsScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefabs/FullStairs.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefabs/FullStairs.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefabs/chair.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefabs/chair.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefabs/door.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefabs/door.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefabs/lamppost.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefabs/lamppost.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefabs/monsterEntity.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefabs/monsterEntity.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefabs/monsterEntity_rigged.blend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefabs/monsterEntity_rigged.blend.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefabs/painting.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefabs/painting.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefabs/stairs.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefabs/stairs.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefabs/stairs.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefabs/stairs.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefabs/underground exit.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefabs/underground exit.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/Footsteps.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/Footsteps.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/Monster_Disappear.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/Monster_Disappear.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/Movement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/Woman_cry.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/Woman_cry.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/player_movement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/player_movement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/CameraRayCast.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/scripts/Woman_cry.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/text_show.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/TextShow.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/Movement.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/EnableFlashLight.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/Monster_Disappear.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/CameraRayCast.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1haOI0v5Sys0N3lcV54T27Pn8rF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cc27343c-a485-48ef-b47a-315078f33901" name="Default Changelist" comment="" />
+      <created>1600245694204</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600245694204</updated>
+      <workItem from="1600245721824" duration="6287000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="836" y="394" key="SettingsEditor" timestamp="1600245898118">
+      <screen x="0" y="22" width="2560" height="1414" />
+    </state>
+    <state x="836" y="394" key="SettingsEditor/0.22.2560.1414@0.22.2560.1414" timestamp="1600245898118" />
+    <state x="735" y="335" width="1200" height="842" key="VCS.FileHistoryDialog" timestamp="1600274791709">
+      <screen x="0" y="23" width="2560" height="1413" />
+    </state>
+    <state x="735" y="334" width="1200" height="842" key="VCS.FileHistoryDialog/0.22.2560.1414@0.22.2560.1414" timestamp="1600249278813" />
+    <state x="735" y="335" width="1200" height="842" key="VCS.FileHistoryDialog/0.23.2560.1413@0.23.2560.1413" timestamp="1600274791709" />
+  </component>
+</project>

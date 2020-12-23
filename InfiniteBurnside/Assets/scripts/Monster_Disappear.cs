@@ -18,6 +18,7 @@ public class Monster_Disappear : MonoBehaviour
     void Start()
     {
         piano = GetComponent<AudioSource>();
+        demon.SetActive(true);
         
     }
 
@@ -29,8 +30,9 @@ public class Monster_Disappear : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.tag == "Player")
+        if(other.CompareTag("Player"))
         {
+            demon.SetActive(false);
             PlaySound();
             StartCoroutine(Delay());
         }
