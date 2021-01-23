@@ -17,6 +17,7 @@ public abstract class startState
 
     }
 
+    //abstract method
     public abstract Type Tick();
 
 

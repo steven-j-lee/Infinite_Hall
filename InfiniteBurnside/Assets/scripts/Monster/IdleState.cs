@@ -7,8 +7,8 @@ public class IdleState : startState
 {
     // Start is called before the first frame update
     private Vector3? destination;
-    private float limitDistance = 1.5f;
-    private float turnRate = 2f;
+    private float limitDistance = 1f;
+    private float turnRate = 2.5f;
     private readonly LayerMask _layerMask = LayerMask.NameToLayer("Walls");
     private float rayDist = 5f;
     private Quaternion targetAngle;
@@ -35,13 +35,17 @@ public class IdleState : startState
         }
         else
         {
-            if (!this.destination.HasValue || Vector3.Distance(this.initTransform.position, this.destination.Value) <= this.limitDistance)
+            if (this.destination.HasValue == false || 
+                Vector3.Distance(this.initTransform.position, this.destination.Value) <= this.limitDistance)
+            {
                 this.RandomizeNextDir();
+            }
+               
             this.initTransform.rotation = Quaternion.Slerp(this.initTransform.rotation, this.targetAngle, Time.deltaTime * this.turnRate);
 
             if (isBlockedInFront())
             {
-                this.initTransform.rotation = Quaternion.Lerp(this.initTransform.rotation, this.targetAngle, 0.5f);
+                this.initTransform.rotation = Quaternion.Lerp(this.initTransform.rotation, this.targetAngle, 0.3f);
             }
             else
             {
@@ -62,7 +66,7 @@ public class IdleState : startState
         var tempDirection = tempAngle * Vector3.forward;
         var tempPosition = this.initTransform.position;
 
-        for(var i = 0; i < 24; i++)
+        for(int i = 0; i < 30; i++)
         {
             if(Physics.Raycast(tempPosition, tempDirection, out hit, StateData.enemySight))
             {
@@ -70,11 +74,17 @@ public class IdleState : startState
                 
                 if((enemy != null))
                 {
+                    Debug.DrawRay(tempPosition, tempDirection * hit.distance, Color.green);
                     return enemy.transform;
+                }
+                else
+                {
+                    Debug.DrawRay(tempPosition, tempDirection * hit.distance, Color.white);
                 }
             }
             else
             {
+                Debug.DrawRay(tempPosition, tempDirection * StateData.enemySight, Color.white);
                 Debug.Log("idling");
             }
             direction = this.angle * direction;

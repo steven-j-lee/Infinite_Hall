@@ -12,9 +12,10 @@ public class StateData : MonoBehaviour
     }
 
     [SerializeField] private float tempMonsterSpeed = 2.5f;
-    [SerializeField] private float tempEnemySight = 5f;
-    [SerializeField] private float tempRange = 1f;
-    
+    [SerializeField] private float tempEnemySight = 4f;
+    [SerializeField] private float tempRange = 3f;
+     
+    //static fields initialized    
     public static float monsterSpeed => Instance.tempMonsterSpeed;
     public static float enemySight => Instance.tempEnemySight;
     public static float range => Instance.tempRange;
@@ -22,6 +23,7 @@ public class StateData : MonoBehaviour
 
     void Awake()
     {
+        //initialize game data before it start
         if (Instance != null)
         {
             Destroy(this.gameObject);

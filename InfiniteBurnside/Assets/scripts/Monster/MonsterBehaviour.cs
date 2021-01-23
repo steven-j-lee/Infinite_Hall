@@ -16,6 +16,12 @@ public class MonsterBehaviour : MonoBehaviour
 
     public SM_Enemy sM_Enemy => GetComponent<SM_Enemy>();
 
+    public void Awake()
+    {
+        //load the enemy's state machine
+        this.InitStateMachine();
+    }
+
 
     public void InitStateMachine()
     {
@@ -33,11 +39,6 @@ public class MonsterBehaviour : MonoBehaviour
         };
 
         GetComponent<SM_Enemy>().SetState(states);  
-    }
-
-    public void Awake()
-    {
-        this.InitStateMachine();
     }
 
 

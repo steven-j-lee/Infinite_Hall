@@ -13,13 +13,18 @@ public class SM_Enemy : MonoBehaviour
             get;
             private set;
         }
+
     public event Action<startState> OnStateChanged;
 
+    public string state;
 
     private void SwitchState(Type nextState)
     {
         this.CurrentState = this.stateDictionary[nextState];
         OnStateChanged?.Invoke(this.CurrentState);
+
+        //debug line
+        this.state = this.CurrentState.GetType().AssemblyQualifiedName;
     }
 
     public void SetState(Dictionary<Type, startState> dictionary)
@@ -36,7 +41,7 @@ public class SM_Enemy : MonoBehaviour
             this.CurrentState = this.stateDictionary.Values.First();
             var nextState = this.CurrentState?.Tick();
 
-            if((nextState != null) && (nextState != this.CurrentState?.GetType()))
+            if( (nextState != null) && (nextState != this.CurrentState?.GetType()))
             {
                 this.SwitchState(nextState);
             }
