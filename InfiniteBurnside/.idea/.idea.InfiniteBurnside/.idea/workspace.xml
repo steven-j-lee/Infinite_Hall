@@ -37,7 +37,8 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/scripts/CameraRayCast.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/Stairs/MonsterManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/Stairs/Popup1.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -50,6 +51,10 @@
       <option value="$PROJECT_DIR$/Assets/scripts/EnemyAI/StateMachine.cs" />
       <option value="$PROJECT_DIR$/Assets/scripts/EnemyAI/AttackState.cs" />
       <option value="$PROJECT_DIR$/Assets/scripts/EnemyAI/Monster.cs" />
+      <option value="$PROJECT_DIR$/Assets/scripts/Stairs/MonsterManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/scripts/Stairs/Popup1.cs" />
+      <option value="$PROJECT_DIR$/Assets/scripts/Stairs/Popup2.cs" />
+      <option value="$PROJECT_DIR$/Assets/scripts/ProceduralStairs.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1haOI0v5Sys0N3lcV54T27Pn8rF" />
@@ -99,6 +104,7 @@
       <workItem from="1612068127906" duration="430000" />
       <workItem from="1612068594464" duration="1479000" />
       <workItem from="1612073458571" duration="6102000" />
+      <workItem from="1612118204919" duration="4745000" />
     </task>
     <servers />
   </component>

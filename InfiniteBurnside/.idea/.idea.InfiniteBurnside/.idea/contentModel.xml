@@ -29,6 +29,11 @@
           <e p="SoundTrigger.cs" t="Include" />
           <e p="SoundTriggerButNotMute.cs" t="Include" />
           <e p="SpawnStairsTrigger.cs" t="Include" />
+          <e p="Stairs" t="Include">
+            <e p="MonsterManager.cs" t="Include" />
+            <e p="Popup1.cs" t="Include" />
+            <e p="Popup2.cs" t="Include" />
+          </e>
           <e p="StairsRandomSound.cs" t="Include" />
           <e p="Text_Popup.cs" t="Include" />
           <e p="TextShow.cs" t="Include" />

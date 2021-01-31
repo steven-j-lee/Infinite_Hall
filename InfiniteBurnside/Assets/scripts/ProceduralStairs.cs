@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Collections;
 using UnityEngine;
 using TMPro;
@@ -7,6 +8,7 @@ public class ProceduralStairs : MonoBehaviour
 {
     [SerializeField] private GameObject stairsPrefab;
     [SerializeField] private GameObject lastStairs;
+    public GameObject[] list = new GameObject[1];
 
     public static System.Action OnTriggerNewStairs;
 
@@ -15,6 +17,14 @@ public class ProceduralStairs : MonoBehaviour
     private void Awake()
     {
         this.StairsNum = 0;
+    }
+
+    private void Update()
+    {
+        if (this.StairsNum == 15)
+        {
+            Application.Quit();
+        }
     }
 
     void Start()

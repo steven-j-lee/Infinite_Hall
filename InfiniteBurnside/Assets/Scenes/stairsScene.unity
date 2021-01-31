@@ -462,6 +462,12 @@ MonoBehaviour:
   stairsPrefab: {fileID: 6997727995432300794, guid: 272bfb2ca09b84f609182019571a1446,
     type: 3}
   lastStairs: {fileID: 1058235908}
+  list:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!82 &1058235911
 AudioSource:
   m_ObjectHideFlags: 0
@@ -884,6 +890,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1409294097490999376, guid: 272bfb2ca09b84f609182019571a1446,
+        type: 3}
+      propertyPath: stairs
+      value: 
+      objectReference: {fileID: 1058235909}
     - target: {fileID: 2333006328006631085, guid: 272bfb2ca09b84f609182019571a1446,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -898,6 +909,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: -1.134
+      objectReference: {fileID: 0}
+    - target: {fileID: 2501682425639924555, guid: 272bfb2ca09b84f609182019571a1446,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 2501682425639924555, guid: 272bfb2ca09b84f609182019571a1446,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.5
       objectReference: {fileID: 0}
     - target: {fileID: 3232536937171191458, guid: 272bfb2ca09b84f609182019571a1446,
         type: 3}
@@ -999,18 +1020,44 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6565853361389302699, guid: 272bfb2ca09b84f609182019571a1446,
+        type: 3}
+      propertyPath: stairs
+      value: 
+      objectReference: {fileID: 1058235909}
     - target: {fileID: 6997727995432300794, guid: 272bfb2ca09b84f609182019571a1446,
         type: 3}
       propertyPath: m_Name
       value: first_stairs
+      objectReference: {fileID: 0}
+    - target: {fileID: 7700958191451039692, guid: 272bfb2ca09b84f609182019571a1446,
+        type: 3}
+      propertyPath: stairs
+      value: 
+      objectReference: {fileID: 1058235909}
+    - target: {fileID: 8017448726532565154, guid: 272bfb2ca09b84f609182019571a1446,
+        type: 3}
+      propertyPath: m_Name
+      value: spawner
       objectReference: {fileID: 0}
     - target: {fileID: 8018222997988576466, guid: 272bfb2ca09b84f609182019571a1446,
         type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 8181406360249797382, guid: 272bfb2ca09b84f609182019571a1446,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 877828486}
+    - target: {fileID: 8309006405944793196, guid: 272bfb2ca09b84f609182019571a1446,
+        type: 3}
+      propertyPath: m_Name
+      value: Jumpscare1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2905714337297404445, guid: 272bfb2ca09b84f609182019571a1446, type: 3}
+    - {fileID: 7957992245505018322, guid: 272bfb2ca09b84f609182019571a1446, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 272bfb2ca09b84f609182019571a1446, type: 3}
 --- !u!1001 &2819632168706370308
 PrefabInstance:
