@@ -1,9 +1,6 @@
 ﻿using System;
 using UnityEngine;
 
-/// <summary>
-/// This class will be the PARENT (BASE CLASS) to all CHILDREN (DERIVED), which will really IMPLEMENT its Methods (via the OVERRIDE command), such as:   TICK()  // State Change.
-/// </summary>
 public abstract class BaseState
 {
 
