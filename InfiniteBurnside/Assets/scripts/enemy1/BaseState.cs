@@ -15,7 +15,7 @@ public abstract class BaseState
     }
 
     //function that we will give to every state
-    public abstract Type Tick();
+    public abstract Type Action();
 
     
     public virtual void OnStateEnter() { }

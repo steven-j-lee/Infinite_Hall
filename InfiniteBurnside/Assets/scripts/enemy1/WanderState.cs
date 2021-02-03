@@ -7,13 +7,11 @@ public class WanderState : BaseState
     private Vector3? destination;
     private float stoppingDistance = 1f;
     private float turnSpeed = 1f;
-    private readonly LayerMask layerMask = LayerMask.NameToLayer("Walls");
+    private LayerMask layerMask = LayerMask.NameToLayer("Walls");
     public float rayDistance = 4.5f;   
     private Quaternion desiredRotation;
     private Vector3 myDirection;
     private Monster stateMon;
-    
-
     private Quaternion startingAngle = Quaternion.AngleAxis(-60, Vector3.up);
     private Quaternion stepAngle = Quaternion.AngleAxis(5, Vector3.up);
     
@@ -23,7 +21,7 @@ public class WanderState : BaseState
     }
 
 
-    public override Type Tick()
+    public override Type Action()
     {
 
         var chaseTarget = this.CheckForPlayer();
@@ -34,36 +32,32 @@ public class WanderState : BaseState
             this.stateMon.SetTarget(chaseTarget);
             return typeof(ChaseState);
         }
+      
+
+        if ((this.destination.HasValue == false) || (Vector3.Distance(this.transform.position, this.destination.Value) <= this.stoppingDistance))
+        {
+            this.FindRandomDestination();
+
+        }     
+             
+        this.transform.rotation = Quaternion.Slerp(this.transform.rotation, this.desiredRotation, Time.deltaTime * this.turnSpeed);
+
+        //check for walls
+        if (IsForwardBlocked())
+        {
+            this.transform.rotation = Quaternion.Lerp(this.transform.rotation, this.desiredRotation, 0.2f);
+        }
         else
         {
-
-            if ((this.destination.HasValue == false) || 
-            (Vector3.Distance(this.transform.position, this.destination.Value) <= this.stoppingDistance))
-            {
-                this.FindRandomDestination();
-
-            }     
-            
-            this.transform.rotation = Quaternion.Slerp(this.transform.rotation, this.desiredRotation, 
-                Time.deltaTime * this.turnSpeed);
-
-            //check for walls
-            if (IsForwardBlocked())
-            {
-                this.transform.rotation = Quaternion.Lerp(this.transform.rotation, this.desiredRotation, 0.2f);
-            }
-            else
-            {
-                this.transform.Translate(Vector3.forward * Time.deltaTime * GameSettings.currentSpeed);
-            }
-            //Debug.DrawRay(this.transform.position, this.myDirection * this.rayDistance, this.stateMon._myTeamDebugRayColor);
-            //try finding a new location
-            while (IsPathBlocked())
-            {
-                this.FindRandomDestination();
-            }
-            return null;
+            this.transform.Translate(Vector3.forward * Time.deltaTime * MonsterState.currentSpeed);
         }
+        //Debug.DrawRay(this.transform.position, this.myDirection * this.rayDistance, this.stateMon._myTeamDebugRayColor);
+        //try finding a new location
+        while (IsPathBlocked())
+        {
+            this.FindRandomDestination();
+        }
+        return null;
     }
 
 
@@ -100,33 +94,29 @@ public class WanderState : BaseState
         var angle = this.transform.rotation * this.startingAngle;
         var direction = angle * Vector3.forward;
         var pos = this.transform.position;
-
+        //24 rays
         for (var i = 0; i < 24; i++)
         {
-            if (Physics.Raycast(pos, direction, out hit, GameSettings.AggroRadius))
+            if (Physics.Raycast(pos, direction, out hit, MonsterState.AggroRadius))
             {
                 //we find the player
-                var Player = hit.collider.gameObject;
-                if (Player.CompareTag("Player"))
+                var player = hit.collider.gameObject;
+                if (player.CompareTag("Player"))
                 {
-                    GameSettings.Instance.setSpeed(3f);
+                    MonsterState.Instance.setSpeed(3f);
                     Debug.DrawRay(pos, direction * hit.distance, Color.red);
                     Debug.Log("I see player");
-                    return Player.transform;
+                    return player.transform;
                 }
-                else
-                {
-                    Debug.DrawRay(pos, direction * hit.distance, Color.blue);
-                }
+                Debug.DrawRay(pos, direction * hit.distance, Color.blue);
             }
             else
             {
-                Debug.DrawRay(pos, direction * GameSettings.AggroRadius, Color.white);
+                Debug.DrawRay(pos, direction * MonsterState.AggroRadius, Color.white);
             }
             //change direction
             direction = this.stepAngle * direction;
         }
-        //create a return if we don't find anything
         return null;
     }
 

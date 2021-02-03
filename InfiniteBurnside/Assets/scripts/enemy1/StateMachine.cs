@@ -17,7 +17,7 @@ public class StateMachine : MonoBehaviour
             this.CurrentState = this.stateList.Values.First();
         }
         //get the next state
-        var nextState = this.CurrentState?.Tick();
+        var nextState = this.CurrentState?.Action();
 
         if ( (nextState != null) && (nextState != this.CurrentState?.GetType()) )
         {

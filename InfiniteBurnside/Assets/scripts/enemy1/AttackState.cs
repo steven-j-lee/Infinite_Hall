@@ -13,9 +13,9 @@ public class AttackState : BaseState
 
     }
     
-    public override Type Tick()
+    public override Type Action()
     {
-        if (this.currEnemy.Target == null)
+        if (this.currEnemy.Target.Equals(null))
         {
             //go back to going around
             return typeof(WanderState);

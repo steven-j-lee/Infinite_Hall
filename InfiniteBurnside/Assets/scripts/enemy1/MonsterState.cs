@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class GameSettings : MonoBehaviour
+public class MonsterState : MonoBehaviour
 {
     //attributes
     [SerializeField] private float enemySpeed = 2f;
@@ -9,7 +9,7 @@ public class GameSettings : MonoBehaviour
     public static float AggroRadius => Instance.aggroRad;
     [SerializeField] private float attackRange = 3f;
     public static float AttackRange => Instance.attackRange;
-    public static GameSettings Instance { get; private set; }
+    public static MonsterState Instance { get; private set; }
     
     void Awake()
     {

@@ -55,6 +55,12 @@
       <option value="$PROJECT_DIR$/Assets/scripts/Stairs/Popup1.cs" />
       <option value="$PROJECT_DIR$/Assets/scripts/Stairs/Popup2.cs" />
       <option value="$PROJECT_DIR$/Assets/scripts/ProceduralStairs.cs" />
+      <option value="$PROJECT_DIR$/Assets/scripts/enemy1/GameSettings.cs" />
+      <option value="$PROJECT_DIR$/Assets/scripts/enemy1/BaseState.cs" />
+      <option value="$PROJECT_DIR$/Assets/scripts/enemy1/StateMachine.cs" />
+      <option value="$PROJECT_DIR$/Assets/scripts/enemy1/ChaseState.cs" />
+      <option value="$PROJECT_DIR$/Assets/scripts/enemy1/WanderState.cs" />
+      <option value="$PROJECT_DIR$/Assets/scripts/enemy1/AttackState.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1haOI0v5Sys0N3lcV54T27Pn8rF" />
@@ -105,6 +111,7 @@
       <workItem from="1612068594464" duration="1479000" />
       <workItem from="1612073458571" duration="6102000" />
       <workItem from="1612118204919" duration="4745000" />
+      <workItem from="1612332195796" duration="1538000" />
     </task>
     <servers />
   </component>
