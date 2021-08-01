@@ -6,10 +6,12 @@ public class Movement : MonoBehaviour
 {
     CharacterController characterController;
 
-    public float speed = 3f;
+    public float speed;
+    public float sprintSpeed;
+    private float tempSpeed;
     public float jumpSpeed = 8.0f;
     public float gravity = 20.0f;
-   
+
     private Vector3 moveDirection = Vector3.zero;
 
     //array of footsteps
@@ -26,6 +28,7 @@ public class Movement : MonoBehaviour
     {
         characterController = GetComponent<CharacterController>();
         source = GetComponent<AudioSource>();
+        tempSpeed = speed;
     }
 
 
@@ -33,15 +36,14 @@ public class Movement : MonoBehaviour
     {
         moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0.0f, Input.GetAxis("Vertical"));
         moveDirection *= speed;
-
         //increase speed if sprinting
         if ((Input.GetKeyDown(KeyCode.LeftShift)))
         {
-            speed = 4f;
+            speed = sprintSpeed;
         }
         else if ((Input.GetKeyUp(KeyCode.LeftShift)))
         {
-            speed = 3f;
+            speed = tempSpeed;
         }
 
         // Apply gravity. Gravity is multiplied by deltaTime twice, as its an acceleration

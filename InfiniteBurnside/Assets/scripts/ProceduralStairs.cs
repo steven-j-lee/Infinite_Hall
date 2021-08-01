@@ -37,12 +37,12 @@ public class ProceduralStairs : MonoBehaviour
         float yRot = lastStairs.transform.rotation.eulerAngles.y > 10 ? 0 : 180;
         Quaternion rot = Quaternion.Euler(new Vector3(0, yRot, 0));
         Vector3 pos = lastStairs.transform.position;
-        pos.y -= 9.4f;
-        pos.z = pos.z > 1 ? 0 : 0.2f;
+        pos.y -= 11.52f;
+        pos.z = pos.z > 1 ? 0 : 13.52f;
 
         if (this.StairsNum % 2 == 0)
         {
-            pos.x = pos.x > 1 ? 0 : 6.13f;
+            pos.x = pos.x > 1 ? 0 : 13.84f;
         }
         else
         {

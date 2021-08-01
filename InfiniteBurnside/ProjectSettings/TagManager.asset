@@ -7,6 +7,16 @@ TagManager:
   - enemy
   - wall
   - Walls
+  - left
+  - right
+  - mini_wLeft
+  - mini_wRight
+  - mini_wTop
+  - Mini_wBottom
+  - playerShip
+  - minigame_npc
+  - life_mini
+  - cup
   layers:
   - Default
   - TransparentFX
