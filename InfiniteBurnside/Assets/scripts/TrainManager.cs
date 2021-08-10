@@ -62,7 +62,7 @@ public class TrainManager : MonoBehaviour
             rightTrain.transform.position = Vector3.Lerp(originalPosRight.transform.position,
                 stationPos.transform.position,  Mathf.SmoothStep(0f, 1f, t/moveSpeed));
             yield return null;
-        }
+        }   
         canBoard = true;
         yield return new WaitForSeconds(seconds);
     }

@@ -9,32 +9,53 @@ public class WormEvent : MonoBehaviour
     [SerializeField] private GameObject worm;
     [SerializeField] private Camera mainCam;
     [SerializeField] private GameObject player;
+    [SerializeField] private GameObject lightParent;
 
+    [SerializeReference] private Component[] lightsList;
+    private bool poHasPlayed;
+    public bool isChase;
+    [SerializeField] private AudioClip downSound;
+
+    [SerializeField] private GameObject npcManager;
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip amb2;
+    [SerializeField] private GameObject exit;
+    
 
     private void Start()
     {
-       
+        poHasPlayed = false;
+        lightsList = lightParent.GetComponentsInChildren<Light>();
     }
 
     void Update()
     {
-        /*
-        if (!ClearEvent(quests))
-        {
-            Debug.Log("not complete");
-        }
-        else if (ClearEvent(quests))
-        {
-            Debug.Log("Complete!");
-        }
-        */
+
+
+        
     }
 
     private void OnTriggerStay(Collider other)
     {
         if (other.tag.Equals("Player"))
         {
-           
+                   if (!ClearEvent(quests))
+                   {
+                       
+                   }
+                   else if (ClearEvent(quests))
+                   { 
+                       npcManager.SetActive(false);
+                      ChangeLightColors();
+                      playSound(downSound);
+                      player.GetComponent<Movement>().enabled = false;
+                      audioSource.clip = amb2;
+                      audioSource.Play();
+                      player.GetComponent<Movement>().enabled = true;
+                      isChase = true;
+                      exit.SetActive(true);
+                      worm.SetActive(true);
+                   }
         }
     }
 
@@ -60,4 +81,27 @@ public class WormEvent : MonoBehaviour
 
         return true;
     }
+
+    private void ChangeLightColors()
+    {
+        foreach (Light light in lightsList)
+        {
+            light.color = Color.red;
+        }
+    }
+
+    private void playSound(AudioClip clip)
+    {
+        if (!poHasPlayed)
+        {
+            gameObject.GetComponent<AudioSource>().PlayOneShot(clip, 5f);
+            poHasPlayed = true;
+        }
+    }
+
+    private IEnumerator Sleep(float seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+    }
+    
 }

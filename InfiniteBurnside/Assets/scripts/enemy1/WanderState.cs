@@ -29,6 +29,7 @@ public class WanderState : BaseState
         //if we sense the player, chase
         if (chaseTarget != null)
         {
+            Debug.Log("Chasing");
             this.stateMon.SetTarget(chaseTarget);
             return typeof(ChaseState);
         }
@@ -51,7 +52,7 @@ public class WanderState : BaseState
         {
             this.transform.Translate(Vector3.forward * Time.deltaTime * MonsterState.currentSpeed);
         }
-        //Debug.DrawRay(this.transform.position, this.myDirection * this.rayDistance, this.stateMon._myTeamDebugRayColor);
+
         //try finding a new location
         while (IsPathBlocked())
         {
@@ -80,7 +81,7 @@ public class WanderState : BaseState
     private void FindRandomDestination()
     {
         Vector3 testPosition = (this.transform.position + (this.transform.forward * 4f)) +
-         new Vector3(UnityEngine.Random.Range(-4.5f, 4.5f), 0f, UnityEngine.Random.Range(-4.5f, 4.5f));
+         new Vector3(UnityEngine.Random.Range(-5f, 5f), 0f, UnityEngine.Random.Range(-5f, 5f));
         this.destination = new Vector3(testPosition.x, 1f, testPosition.z);
         this.myDirection = Vector3.Normalize(this.destination.Value - this.transform.position);
         this.myDirection = new Vector3(this.myDirection.x, 0f, this.myDirection.z);
@@ -94,7 +95,7 @@ public class WanderState : BaseState
         var angle = this.transform.rotation * this.startingAngle;
         var direction = angle * Vector3.forward;
         var pos = this.transform.position;
-        //24 rays
+   
         for (var i = 0; i < 24; i++)
         {
             if (Physics.Raycast(pos, direction, out hit, MonsterState.AggroRadius))
@@ -103,7 +104,7 @@ public class WanderState : BaseState
                 var player = hit.collider.gameObject;
                 if (player.CompareTag("Player"))
                 {
-                    MonsterState.Instance.setSpeed(3f);
+                    MonsterState.Instance.setSpeed(13f);
                     Debug.DrawRay(pos, direction * hit.distance, Color.red);
                     Debug.Log("I see player");
                     return player.transform;

@@ -17,7 +17,9 @@ public class NPCManager : MonoBehaviour
     {
         foreach (var npc in npcList)
         {
-            npc.transform.LookAt(player.transform);
+            Vector3 newPos = new Vector3(player.transform.position.x
+                , npc.transform.position.y, player.transform.position.z);
+            npc.transform.LookAt(newPos);
         }
     }
 }

@@ -8,24 +8,37 @@ public class ChaseState : BaseState
     {
         this.enemy = Monster;
     }
-
-
-
+    
     public override Type Action()
     {
         if (this.enemy.Target.Equals(null))
         {
+            Debug.Log("going back to wandering");
             return typeof(WanderState);
         }
+        //get lookat from ray
+        this.transform.LookAt(new Vector3(this.enemy.Target.position.x, transform.position.y, this.enemy.Target.position.z));
+        this.transform.Translate(Vector3.forward * Time.deltaTime * MonsterState.currentSpeed);
+        
+        if (enemy.isHittingWall)
+        {
+            Debug.Log("Player is hiding so returning to wandering");
+            return typeof(WanderState);
+        }
+        
         var distance = Vector3.Distance(this.transform.position, this.enemy.Target.transform.position);
         if (distance <= MonsterState.AttackRange)
         {
+            Debug.Log("Attacking player");
             //if we are in range change state to attack
             return typeof(AttackState);
         }
-        //get lookat from ray
-        this.transform.LookAt(this.enemy.Target);
-        this.transform.Translate(Vector3.forward * Time.deltaTime * MonsterState.currentSpeed);
+
+        else if (distance >= 40f)
+        {
+            Debug.Log("Returning back to wandering after chasing");
+            return typeof(WanderState);
+        }
 
         return null;
     } 

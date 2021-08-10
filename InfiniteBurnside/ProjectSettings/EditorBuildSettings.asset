@@ -17,4 +17,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/stairsScene.unity
     guid: a0ac9e40cdce0574ba84d50f85ac8880
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 45a55916c65d282429899d477987d4d8
+  - enabled: 1
+    path: Assets/Scenes/In_subway.unity
+    guid: 1a11e3d8270eaa74b8615dcf88c14bac
+  - enabled: 1
+    path: Assets/Scenes/Subway.unity
+    guid: 2204fdd743294404da9206ce3366d9ed
+  - enabled: 1
+    path: Assets/Scenes/BadEndScene.unity
+    guid: 9f1589461bb0b23498c114845ad78d74
   m_configObjects: {}

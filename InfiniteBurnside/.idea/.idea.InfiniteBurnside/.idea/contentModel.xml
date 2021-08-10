@@ -178,17 +178,24 @@
           </e>
         </e>
         <e p="scripts" t="Include">
-          <e p="CameraController.cs" t="Include" />
-          <e p="CameraRayCast.cs" t="Include" />
           <e p="ChangeScene.cs" t="Include" />
           <e p="CoffeeEvent.cs" t="Include" />
           <e p="coffeeInteract.cs" t="Include" />
+          <e p="DemonEntities" t="Include">
+            <e p="EndGameScripts" t="Include">
+              <e p="DropDemon.cs" t="Include" />
+            </e>
+            <e p="hand_ghost" t="Include">
+              <e p="EnableGhost.cs" t="Include" />
+              <e p="GhostEventManager.cs" t="Include" />
+              <e p="GhostHand.cs" t="Include" />
+            </e>
+          </e>
           <e p="DialogueSystem" t="Include">
             <e p="Dialogue.cs" t="Include" />
             <e p="DialogueManager.cs" t="Include" />
             <e p="Interactable.cs" t="Include" />
           </e>
-          <e p="EnableFlashLight.cs" t="Include" />
           <e p="EndDemo.cs" t="Include" />
           <e p="enemy1" t="Include">
             <e p="AttackState.cs" t="Include" />
@@ -213,28 +220,49 @@
           </e>
           <e p="Monster_Disappear.cs" t="Include" />
           <e p="MonsterChase.cs" t="Include" />
-          <e p="Movement.cs" t="Include" />
-          <e p="NPC_interact.cs" t="Include" />
+          <e p="MoveWorm.cs" t="Include" />
           <e p="NPCManager.cs" t="Include" />
+          <e p="OpenDoors.cs" t="Include" />
+          <e p="Player" t="Include">
+            <e p="CameraController.cs" t="Include" />
+            <e p="CameraRayCast.cs" t="Include" />
+            <e p="EnableFlashLight.cs" t="Include" />
+            <e p="Movement.cs" t="Include" />
+            <e p="PlayerStatsInit.cs" t="Include" />
+          </e>
           <e p="Popup.cs" t="Include" />
-          <e p="ProceduralStairs.cs" t="Include" />
           <e p="SceneTransitionTrain.cs" t="Include" />
+          <e p="ScriptableObjects" t="Include">
+            <e p="Player_Data.cs" t="Include" />
+          </e>
           <e p="Shader" t="Include">
+            <e p="Mirror.shader" t="Include" />
+            <e p="MirrorReflection.cs" t="Include" />
             <e p="PixelateScript.cs" t="Include" />
             <e p="pixelation.shader" t="Include" />
           </e>
           <e p="SoundTrigger.cs" t="Include" />
           <e p="SoundTriggerButNotMute.cs" t="Include" />
-          <e p="SpawnStairsTrigger.cs" t="Include" />
-          <e p="Stairs" t="Include">
-            <e p="MonsterManager.cs" t="Include" />
-            <e p="Popup1.cs" t="Include" />
-            <e p="Popup2.cs" t="Include" />
-          </e>
           <e p="StairsRandomSound.cs" t="Include" />
+          <e p="StairsSystem" t="Include">
+            <e p="ProceduralStairs.cs" t="Include" />
+            <e p="SpawnStairsTrigger.cs" t="Include" />
+            <e p="Stairs" t="Include">
+              <e p="MonsterManager.cs" t="Include" />
+              <e p="Popup1.cs" t="Include" />
+              <e p="Popup2.cs" t="Include" />
+            </e>
+          </e>
+          <e p="TestScripts" t="Include">
+            <e p="testLerpCoroutines.cs" t="Include" />
+          </e>
           <e p="Text_Popup.cs" t="Include" />
           <e p="TextShow.cs" t="Include" />
+          <e p="TPplayer.cs" t="Include" />
           <e p="TrainManager.cs" t="Include" />
+          <e p="UI" t="Include">
+            <e p="MainUICommands.cs" t="Include" />
+          </e>
           <e p="WormEvent.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">

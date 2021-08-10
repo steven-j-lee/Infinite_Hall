@@ -20,8 +20,18 @@ public class Interactable : MonoBehaviour
         {
             Debug.Log("NPC on player");
             ExecuteDialogue();
+            if (gameObject.tag.Equals("d_to_disappear"))
+            {
+                StartCoroutine(Sleep(2f));
+                gameObject.SetActive(false);
+            }
         } 
     }
 
-    
+    private IEnumerator Sleep(float time)
+    {
+        yield return new WaitForSeconds(time);
+    }
+
+
 }

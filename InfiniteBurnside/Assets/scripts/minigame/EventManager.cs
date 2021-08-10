@@ -33,7 +33,7 @@ public class EventManager : MonoBehaviour
         }
 
         //Win condition
-        else if (ship.GetComponent<ShipMovement>().score >= 100)
+        else if (ship.GetComponent<ShipMovement>().score >= 1500)
         {
             minigame.SetActive(false);
             player.SetActive(true);

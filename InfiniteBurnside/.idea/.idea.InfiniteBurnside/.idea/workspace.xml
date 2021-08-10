@@ -21,85 +21,52 @@
   <component name="ChangeListManager">
     <list default="true" id="cc27343c-a485-48ef-b47a-315078f33901" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.InfiniteBurnside/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InfiniteBurnside/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.InfiniteBurnside/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InfiniteBurnside/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.InfiniteBurnside/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InfiniteBurnside/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Gray_Mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Gray_Mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Materials/New Render Texture.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Materials/New Render Texture.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Materials/pico-8 col. palette.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Materials/pico-8 col. palette.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/artwork 1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/artwork 1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/artwork.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/artwork.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/black.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/black.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/lamptext.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/lamptext.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/moon.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/moon.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/texture3.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/texture3.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/wood.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/wood.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/monsterwalk.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/monsterwalk.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Hallway.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Hallway.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/In_subway.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/In_subway.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Subway.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Subway.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/entrance.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/entrance.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/lobby.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/lobby.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/stairsScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/stairsScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/516194__aarrnnoo__woman-crying.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/516194__aarrnnoo__woman-crying.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Bread (Prod. by Lukrembo).wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Bread (Prod. by Lukrembo).wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Climactic_Suspense-Mike_Koenig-390542520.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Climactic_Suspense-Mike_Koenig-390542520.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Horror Ambience Music (Royalty Free).mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Horror Ambience Music (Royalty Free).mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/ambiance.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/ambiance.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/elecnoise.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/elecnoise.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/footstep_concrete_000.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/footstep_concrete_000.ogg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/footstep_concrete_001.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/footstep_concrete_001.ogg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/footstep_concrete_002.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/footstep_concrete_002.ogg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/footstep_concrete_003.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/footstep_concrete_003.ogg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/footstep_concrete_004.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/footstep_concrete_004.ogg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/knocking.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/knocking.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/pianotrig.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/pianotrig.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/placeholder.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/placeholder.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/rainandthunder.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/rainandthunder.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/shock.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/shock.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/speech.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/speech.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/tension_beat.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/tension_beat.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/up_and_down.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/up_and_down.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/ventbanging.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/ventbanging.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/low_poly.renderTexture" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/low_poly.renderTexture" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/lobby_test_scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/lobby_test_scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefabs/UIManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefabs/UIManager.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefabs/playerR 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefabs/playerR 1.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/prefabs/playerR.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefabs/playerR.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/prefabs/stairs.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefabs/stairs.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/ChangeScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/ChangeScene.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/Movement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/ProceduralStairs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/ProceduralStairs.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/jumpscare1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/jumpscare1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/shadow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/shadow.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/untitled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/untitled.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/CameraController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/CameraController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/CameraRayCast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/CameraRayCast.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/DialogueSystem/Interactable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/DialogueSystem/Interactable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/EnableFlashLight.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/EnableFlashLight.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/Movement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/Movement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/NPCManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/NPCManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/NPC_interact.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/NPC_interact.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/ProceduralStairs.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/ProceduralStairs.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/SpawnStairsTrigger.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/SpawnStairsTrigger.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/Stairs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/Stairs/MonsterManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/Stairs/MonsterManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/Stairs/Popup1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/Stairs/Popup1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/Stairs/Popup2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/Stairs/Popup2.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/TrainManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/TrainManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/WormEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/WormEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/enemy1/AttackState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/enemy1/AttackState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/enemy1/ChaseState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/enemy1/ChaseState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/enemy1/Monster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/enemy1/Monster.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/enemy1/WanderState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/enemy1/WanderState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/minigame/EventManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/minigame/EventManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sprites/righthand.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/righthand.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sprites/righthand.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/righthand.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
@@ -120,35 +87,27 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/scripts/Stairs/Popup1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/scripts/Stairs/MonsterManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/UI/MainUICommands.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/TPplayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/NPCManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/CoffeeInteract.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/OpenDoors.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/minigame/ShipMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/DemonEntities/EndGameScripts/DropDemon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/Shader/MirrorReflection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/minigame/MilkFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/minigame/CartonFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/ScriptableObjects/Rose_Data.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/WormEvent.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/scripts/Monster/startState.cs" />
-      <option value="$PROJECT_DIR$/Assets/scripts/EnemyAI/Drone.cs" />
-      <option value="$PROJECT_DIR$/Assets/scripts/EnemyAI/BaseState.cs" />
-      <option value="$PROJECT_DIR$/Assets/scripts/EnemyAI/ChaseState.cs" />
-      <option value="$PROJECT_DIR$/Assets/scripts/EnemyAI/WanderState.cs" />
-      <option value="$PROJECT_DIR$/Assets/scripts/EnemyAI/GameSettings.cs" />
-      <option value="$PROJECT_DIR$/Assets/scripts/EnemyAI/StateMachine.cs" />
-      <option value="$PROJECT_DIR$/Assets/scripts/EnemyAI/AttackState.cs" />
-      <option value="$PROJECT_DIR$/Assets/scripts/EnemyAI/Monster.cs" />
       <option value="$PROJECT_DIR$/Assets/scripts/Stairs/MonsterManager.cs" />
       <option value="$PROJECT_DIR$/Assets/scripts/Stairs/Popup1.cs" />
       <option value="$PROJECT_DIR$/Assets/scripts/Stairs/Popup2.cs" />
       <option value="$PROJECT_DIR$/Assets/scripts/enemy1/GameSettings.cs" />
       <option value="$PROJECT_DIR$/Assets/scripts/enemy1/BaseState.cs" />
       <option value="$PROJECT_DIR$/Assets/scripts/enemy1/StateMachine.cs" />
-      <option value="$PROJECT_DIR$/Assets/scripts/enemy1/ChaseState.cs" />
-      <option value="$PROJECT_DIR$/Assets/scripts/enemy1/WanderState.cs" />
-      <option value="$PROJECT_DIR$/Assets/scripts/enemy1/AttackState.cs" />
       <option value="$PROJECT_DIR$/Assets/scripts/ProceduralStairs.cs" />
       <option value="$PROJECT_DIR$/Assets/scripts/Movement.cs" />
       <option value="$PROJECT_DIR$/Assets/scripts/NPCManager.cs" />
@@ -158,14 +117,12 @@
       <option value="$PROJECT_DIR$/Assets/scripts/DialogueSystem/DialogueManager.cs" />
       <option value="$PROJECT_DIR$/Assets/scripts/LogoHover.cs" />
       <option value="$PROJECT_DIR$/Assets/scripts/LevelManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/scripts/TrainManager.cs" />
       <option value="$PROJECT_DIR$/Assets/scripts/ChangeScene.cs" />
       <option value="$PROJECT_DIR$/Assets/scripts/Shader/pixelation.shader" />
       <option value="$PROJECT_DIR$/Assets/scripts/minigame/MilkFactory.cs" />
       <option value="$PROJECT_DIR$/Assets/scripts/minigame/CartonFactory.cs" />
       <option value="$PROJECT_DIR$/Assets/scripts/minigame/ObstacleFactory.cs" />
       <option value="$PROJECT_DIR$/Assets/scripts/minigame/FactorySpawner.cs" />
-      <option value="$PROJECT_DIR$/Assets/scripts/DialogueSystem/Interactable.cs" />
       <option value="$PROJECT_DIR$/Assets/scripts/EventManager.cs" />
       <option value="$PROJECT_DIR$/Assets/scripts/minigame/ShipMovement.cs" />
       <option value="$PROJECT_DIR$/Assets/scripts/minigame/TextToScreen.cs" />
@@ -174,8 +131,28 @@
       <option value="$PROJECT_DIR$/Assets/scripts/coffeeInteract.cs" />
       <option value="$PROJECT_DIR$/Assets/scripts/CoffeeInteract.cs" />
       <option value="$PROJECT_DIR$/Assets/scripts/CoffeeEvent.cs" />
-      <option value="$PROJECT_DIR$/Assets/scripts/minigame/EventManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/scripts/TestScripts/testLerpCoroutines.cs" />
+      <option value="$PROJECT_DIR$/Assets/scripts/MoveWorm.cs" />
+      <option value="$PROJECT_DIR$/Assets/scripts/TrainManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/scripts/CameraRayCast.cs" />
       <option value="$PROJECT_DIR$/Assets/scripts/WormEvent.cs" />
+      <option value="$PROJECT_DIR$/Assets/scripts/DemonEntities/EndGameScripts/DropDemon.cs" />
+      <option value="$PROJECT_DIR$/Assets/scripts/UI/MainUICommands.cs" />
+      <option value="$PROJECT_DIR$/Assets/scripts/Player/CameraController.cs" />
+      <option value="$PROJECT_DIR$/Assets/scripts/Shader/MirrorReflection.cs" />
+      <option value="$PROJECT_DIR$/Assets/scripts/DemonEntities/GhostHand.cs" />
+      <option value="$PROJECT_DIR$/Assets/scripts/DemonEntities/GhostEventManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/scripts/Player/PlayerStatsInit.cs" />
+      <option value="$PROJECT_DIR$/Assets/scripts/minigame/EventManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/scripts/DialogueSystem/Interactable.cs" />
+      <option value="$PROJECT_DIR$/Assets/scripts/DemonEntities/hand_ghost/Enable_hands.cs" />
+      <option value="$PROJECT_DIR$/Assets/scripts/DemonEntities/hand_ghost/EnableGhost.cs" />
+      <option value="$PROJECT_DIR$/Assets/scripts/enemy1/Monster.cs" />
+      <option value="$PROJECT_DIR$/Assets/scripts/enemy1/AttackState.cs" />
+      <option value="$PROJECT_DIR$/Assets/scripts/enemy1/ChaseState.cs" />
+      <option value="$PROJECT_DIR$/Assets/scripts/enemy1/WanderState.cs" />
+      <option value="$PROJECT_DIR$/Assets/scripts/TPplayer.cs" />
+      <option value="$PROJECT_DIR$/Assets/scripts/OpenDoors.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1haOI0v5Sys0N3lcV54T27Pn8rF" />
@@ -245,6 +222,11 @@
       <workItem from="1627694041834" duration="15458000" />
       <workItem from="1627716889590" duration="7957000" />
       <workItem from="1627789557697" duration="11287000" />
+      <workItem from="1627875882787" duration="2722000" />
+      <workItem from="1627973115822" duration="1436000" />
+      <workItem from="1628032919818" duration="23665000" />
+      <workItem from="1628381705436" duration="28306000" />
+      <workItem from="1628546252571" duration="61000" />
     </task>
     <servers />
   </component>

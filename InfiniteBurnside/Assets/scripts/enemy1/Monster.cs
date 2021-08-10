@@ -11,7 +11,14 @@ public class Monster : MonoBehaviour
     public StateMachine StateMachine => GetComponent<StateMachine>();
     [SerializeField] private AudioSource source;
     [SerializeField] private AudioClip clip;
-    
+    public bool isInContactWithPlayer;
+    public bool isHittingWall;
+    private void Awake()
+    {
+        this.InitializeStateMachine();
+        isInContactWithPlayer = false;
+        isHittingWall = false;
+    }
     public void SetTarget( Transform target )
     {
         this.Target = target;
@@ -33,14 +40,27 @@ public class Monster : MonoBehaviour
 
     public void Attack()
     {
-        source.PlayOneShot(clip);
-        SceneManager.LoadScene(2);
+        if (isInContactWithPlayer)
+        {
+            SceneManager.LoadScene(2);   
+        }
+        else
+        {
+            isInContactWithPlayer = false;
+        }
     }
 
-
-    
-    private void Awake()
+    private void OnTriggerEnter(Collider other)
     {
-        this.InitializeStateMachine();
+        if (other.tag.Equals("wall"))
+        {
+            isHittingWall = true;
+        }
+        
+        if (other.CompareTag("Player"))
+        {
+            isInContactWithPlayer = true;
+        }
+        
     }
 }

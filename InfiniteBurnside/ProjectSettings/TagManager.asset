@@ -17,6 +17,11 @@ TagManager:
   - minigame_npc
   - life_mini
   - cup
+  - ghost
+  - out
+  - in
+  - d_to_disappear
+  - locker
   layers:
   - Default
   - TransparentFX
@@ -28,11 +33,11 @@ TagManager:
   - 
   - Walls
   - Characters
-  - 
-  - 
-  - 
-  - 
-  - 
+  - demon
+  - props
+  - floor
+  - in
+  - out
   - 
   - 
   - 
