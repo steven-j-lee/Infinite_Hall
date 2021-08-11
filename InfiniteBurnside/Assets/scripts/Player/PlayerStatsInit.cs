@@ -17,7 +17,7 @@ public class PlayerStatsInit : MonoBehaviour
 
     private void Awake()
     {
-        playerData.health = 1000;
+        playerData.health = 3000;
     }
 
     void Start()

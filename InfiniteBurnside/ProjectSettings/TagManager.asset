@@ -22,6 +22,12 @@ TagManager:
   - in
   - d_to_disappear
   - locker
+  - pink
+  - white
+  - flamen
+  - blue
+  - rose
+  - answer
   layers:
   - Default
   - TransparentFX

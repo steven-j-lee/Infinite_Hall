@@ -26,7 +26,7 @@ public class DropDemon : MonoBehaviour
         if (isSeen)
         {
             StartCoroutine(Routine());
-            SceneManager.LoadScene(4);
+            SceneManager.LoadScene(0);
         }
     }
 

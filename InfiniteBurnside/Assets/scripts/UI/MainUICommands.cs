@@ -41,7 +41,7 @@ public class MainUICommands : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene(6);
+        SceneManager.LoadScene(1);
     }
 
     public void ExitGame()

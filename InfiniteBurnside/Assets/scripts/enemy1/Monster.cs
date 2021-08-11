@@ -10,9 +10,10 @@ public class Monster : MonoBehaviour
     public Transform Target { get; private set; }
     public StateMachine StateMachine => GetComponent<StateMachine>();
     [SerializeField] private AudioSource source;
-    [SerializeField] private AudioClip clip;
+    [SerializeField] public AudioClip scream;
     public bool isInContactWithPlayer;
     public bool isHittingWall;
+    public bool isAudioEnabled;
     private void Awake()
     {
         this.InitializeStateMachine();
@@ -42,7 +43,7 @@ public class Monster : MonoBehaviour
     {
         if (isInContactWithPlayer)
         {
-            SceneManager.LoadScene(2);   
+            Target.GetComponent<PlayerStatsInit>().playerData.health -= 2;
         }
         else
         {

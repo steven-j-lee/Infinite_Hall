@@ -11977,6 +11977,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 601feac1ad1802c419c43a31505d5d70,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.7077041
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 601feac1ad1802c419c43a31505d5d70,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.6312567
+      objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: 601feac1ad1802c419c43a31505d5d70,
         type: 3}
       propertyPath: m_Name
@@ -16097,7 +16107,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55057462ec7f1465a99984a2d07ec067, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 0
+  level: 3
   isColliding: 0
 --- !u!1001 &1363482620
 PrefabInstance:
@@ -22358,6 +22368,26 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6585710558537797197, guid: f761f37a803f2084882610687459cfc1,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 6585710558537797197, guid: f761f37a803f2084882610687459cfc1,
+        type: 3}
+      propertyPath: m_Height
+      value: 3.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6585710558537797198, guid: f761f37a803f2084882610687459cfc1,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 6585710558537797198, guid: f761f37a803f2084882610687459cfc1,
+        type: 3}
+      propertyPath: m_Height
+      value: 3.11
+      objectReference: {fileID: 0}
     - target: {fileID: 6585710558537797199, guid: f761f37a803f2084882610687459cfc1,
         type: 3}
       propertyPath: speed
@@ -22366,7 +22396,7 @@ PrefabInstance:
     - target: {fileID: 6585710558537797199, guid: f761f37a803f2084882610687459cfc1,
         type: 3}
       propertyPath: sprintSpeed
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 6585710558537797200, guid: f761f37a803f2084882610687459cfc1,
         type: 3}

@@ -19,8 +19,12 @@ public class AttackState : BaseState
         {
             //go back to going around
             return typeof(WanderState);
-        }        
-
+        }
+        var distance = Vector3.Distance(this.transform.position, currEnemy.Target.transform.position);
+        if (distance >= 5f)
+        {
+            return typeof(ChaseState);
+        }
         //else call function
             this.currEnemy.Attack();
             return null;

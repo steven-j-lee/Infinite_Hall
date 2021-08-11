@@ -24,6 +24,7 @@ public class GhostEventManager : MonoBehaviour
         if (dt >= targetTime && !ghostHands.activeSelf)
         {
             ghostHands.SetActive(true);
+            GameObject.FindWithTag("Player").GetComponent<Movement>().enabled = false;
             targetTime = Random.Range(timeFloor, timeCeil);
             dt = 0;
         }
@@ -32,8 +33,9 @@ public class GhostEventManager : MonoBehaviour
             targetTime = Random.Range(timeFloor, timeCeil);
         }
 
-        if (ghostHands.GetComponent<GhostHand>().SpaceCount >= 15 && ghostHands.activeSelf)
+        if (ghostHands.GetComponent<GhostHand>().SpaceCount >= 5 && ghostHands.activeSelf)
         {
+            GameObject.FindWithTag("Player").GetComponent<Movement>().enabled = true;
             ghostHands.SetActive(false);
             ghostHands.GetComponent<GhostHand>().SpaceCount = 0;
         }

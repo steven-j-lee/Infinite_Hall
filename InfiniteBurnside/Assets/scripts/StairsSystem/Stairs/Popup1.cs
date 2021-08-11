@@ -35,6 +35,7 @@ public class Popup1 : MonoBehaviour
     {
         if(other.CompareTag("Player") && randomNum == stairNum)
         {
+            GameObject.FindWithTag("Player").GetComponent<PlayerStatsInit>().playerData.health -= 400;
             PlaySound();
             StartCoroutine(Delay());
         }

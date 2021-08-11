@@ -48,7 +48,7 @@ public class GhostHand : MonoBehaviour
         float pingPongTimePos = Mathf.PingPong(Time.time * transformSpeed, 1);
         RotateBackAndFourth(pingPongTime);
         moveHands(pingPongTime);
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyUp(KeyCode.Space))
         {
             SpaceCount += 1;
         }

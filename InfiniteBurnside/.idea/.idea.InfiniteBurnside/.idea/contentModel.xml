@@ -186,6 +186,7 @@
               <e p="DropDemon.cs" t="Include" />
             </e>
             <e p="hand_ghost" t="Include">
+              <e p="DropShadows.cs" t="Include" />
               <e p="EnableGhost.cs" t="Include" />
               <e p="GhostEventManager.cs" t="Include" />
               <e p="GhostHand.cs" t="Include" />
@@ -196,6 +197,8 @@
             <e p="DialogueManager.cs" t="Include" />
             <e p="Interactable.cs" t="Include" />
           </e>
+          <e p="EnableElevator.cs" t="Include" />
+          <e p="EnableLastSceneLobby.cs" t="Include" />
           <e p="EndDemo.cs" t="Include" />
           <e p="enemy1" t="Include">
             <e p="AttackState.cs" t="Include" />
@@ -206,6 +209,7 @@
             <e p="StateMachine.cs" t="Include" />
             <e p="WanderState.cs" t="Include" />
           </e>
+          <e p="InitRose.cs" t="Include" />
           <e p="LogoHover.cs" t="Include" />
           <e p="minigame" t="Include">
             <e p="CartonFactory.cs" t="Include" />
@@ -231,9 +235,11 @@
             <e p="PlayerStatsInit.cs" t="Include" />
           </e>
           <e p="Popup.cs" t="Include" />
+          <e p="RoseManager.cs" t="Include" />
           <e p="SceneTransitionTrain.cs" t="Include" />
           <e p="ScriptableObjects" t="Include">
             <e p="Player_Data.cs" t="Include" />
+            <e p="Rose_Data.cs" t="Include" />
           </e>
           <e p="Shader" t="Include">
             <e p="Mirror.shader" t="Include" />
@@ -253,6 +259,7 @@
               <e p="Popup2.cs" t="Include" />
             </e>
           </e>
+          <e p="StopCurrentAudio.cs" t="Include" />
           <e p="TestScripts" t="Include">
             <e p="testLerpCoroutines.cs" t="Include" />
           </e>
@@ -261,6 +268,7 @@
           <e p="TPplayer.cs" t="Include" />
           <e p="TrainManager.cs" t="Include" />
           <e p="UI" t="Include">
+            <e p="CheckMap.cs" t="Include" />
             <e p="MainUICommands.cs" t="Include" />
           </e>
           <e p="WormEvent.cs" t="Include" />

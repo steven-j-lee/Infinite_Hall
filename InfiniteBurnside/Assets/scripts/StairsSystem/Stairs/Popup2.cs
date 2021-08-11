@@ -32,6 +32,7 @@ public class Popup2 : MonoBehaviour
     {
         if(other.CompareTag("Player") && stairNum == randomNum)
         {
+            GameObject.FindWithTag("Player").GetComponent<PlayerStatsInit>().playerData.health -= 300;
             PlaySound();
             isGoing = true;
         }

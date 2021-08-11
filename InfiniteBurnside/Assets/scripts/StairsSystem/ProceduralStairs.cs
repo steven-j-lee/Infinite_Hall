@@ -21,10 +21,7 @@ public class ProceduralStairs : MonoBehaviour
 
     private void Update()
     {
-        if (this.StairsNum == 15)
-        {
-            Application.Quit();
-        }
+
     }
 
     void Start()

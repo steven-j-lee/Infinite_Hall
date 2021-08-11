@@ -2,17 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Rose_Data : MonoBehaviour
+[CreateAssetMenu(fileName = "New Rose", menuName = "Create Rose")]
+public class Rose_Data : ScriptableObject
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public string name;
+    public bool isTaken = false;
 }

@@ -12,8 +12,8 @@ public class WanderState : BaseState
     private Quaternion desiredRotation;
     private Vector3 myDirection;
     private Monster stateMon;
-    private Quaternion startingAngle = Quaternion.AngleAxis(-60, Vector3.up);
-    private Quaternion stepAngle = Quaternion.AngleAxis(5, Vector3.up);
+    private Quaternion startingAngle = Quaternion.AngleAxis(-90, Vector3.up);
+    private Quaternion stepAngle = Quaternion.AngleAxis(10, Vector3.up);
     
     public WanderState(Monster monster) : base( monster.gameObject )
     {
@@ -23,7 +23,7 @@ public class WanderState : BaseState
 
     public override Type Action()
     {
-
+        stateMon.gameObject.GetComponent<AudioSource>().clip = null;
         var chaseTarget = this.CheckForPlayer();
         
         //if we sense the player, chase
@@ -31,6 +31,8 @@ public class WanderState : BaseState
         {
             Debug.Log("Chasing");
             this.stateMon.SetTarget(chaseTarget);
+            stateMon.isInContactWithPlayer = true;
+            stateMon.isAudioEnabled = true;
             return typeof(ChaseState);
         }
       
@@ -81,7 +83,7 @@ public class WanderState : BaseState
     private void FindRandomDestination()
     {
         Vector3 testPosition = (this.transform.position + (this.transform.forward * 4f)) +
-         new Vector3(UnityEngine.Random.Range(-5f, 5f), 0f, UnityEngine.Random.Range(-5f, 5f));
+         new Vector3(UnityEngine.Random.Range(-7f, 7f), 0f, UnityEngine.Random.Range(-7f, 7f));
         this.destination = new Vector3(testPosition.x, 1f, testPosition.z);
         this.myDirection = Vector3.Normalize(this.destination.Value - this.transform.position);
         this.myDirection = new Vector3(this.myDirection.x, 0f, this.myDirection.z);
@@ -104,7 +106,7 @@ public class WanderState : BaseState
                 var player = hit.collider.gameObject;
                 if (player.CompareTag("Player"))
                 {
-                    MonsterState.Instance.setSpeed(13f);
+                    MonsterState.Instance.setSpeed(14f);
                     Debug.DrawRay(pos, direction * hit.distance, Color.red);
                     Debug.Log("I see player");
                     return player.transform;

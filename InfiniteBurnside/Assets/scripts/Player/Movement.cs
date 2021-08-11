@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(CharacterController))]
 public class Movement : MonoBehaviour
@@ -34,6 +35,16 @@ public class Movement : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (Input.GetKeyUp(KeyCode.Tab))
+        {
+            Scene scene = SceneManager.GetActiveScene();
+            SceneManager.LoadScene(scene.name);
+        }
+        
+        if (Input.GetKeyUp(KeyCode.Escape))
+        {
+            SceneManager.LoadScene(0);
+        }
         moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0.0f, Input.GetAxis("Vertical"));
         moveDirection *= speed;
         //increase speed if sprinting

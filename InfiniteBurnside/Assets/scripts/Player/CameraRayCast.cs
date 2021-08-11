@@ -7,6 +7,8 @@ public class CameraRayCast : MonoBehaviour
     [SerializeField] private int rayCastLenght;
     [SerializeField] private LayerMask interactableLayer;
     private GameObject raycastedObj;
+
+    [SerializeField] private GameObject[] roses;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,9 +33,38 @@ public class CameraRayCast : MonoBehaviour
             {
                 GameObject.FindWithTag("ghost").GetComponent<DropDemon>().isSeen = true;
             }
-            else
+
+            if (collision.collider.CompareTag("pink") && Input.GetMouseButtonDown(0))
             {
-                Debug.Log("False");
+                Debug.Log("pink");
+                roses[0].GetComponent<InitRose>().taken = true;
+                roses[0].GetComponent<MeshRenderer>().enabled = false;
+            }
+            
+            if (collision.collider.CompareTag("white") && Input.GetMouseButtonDown(0))
+            {
+                Debug.Log("white");
+                roses[1].GetComponent<InitRose>().taken = true;
+                roses[1].GetComponent<MeshRenderer>().enabled = false;
+            }
+            
+            if (collision.collider.CompareTag("flamen") && Input.GetMouseButtonDown(0))
+            {
+                Debug.Log("flamen");
+                roses[2].GetComponent<InitRose>().taken = true;
+                roses[2].GetComponent<MeshRenderer>().enabled = false;
+            }
+            
+            if (collision.collider.CompareTag("blue") && Input.GetMouseButtonDown(0))
+            {
+                Debug.Log("blue");
+                roses[3].GetComponent<InitRose>().taken = true;
+                roses[3].GetComponent<MeshRenderer>().enabled = false;
+            }
+
+            if (collision.collider.CompareTag("answer") && Input.GetMouseButtonDown(0))
+            {
+                GameObject.FindWithTag("answer").GetComponent<EnableLastSceneLobby>().isStolen = true;
             }
         }
     }

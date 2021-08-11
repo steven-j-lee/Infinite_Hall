@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -36,7 +35,7 @@ public class MoveWorm : MonoBehaviour
         if (other.tag.Equals("Player"))
         {
             StopAllCoroutines();
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(7);
         }
     }
 

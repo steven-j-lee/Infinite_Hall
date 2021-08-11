@@ -11,6 +11,13 @@ public class ChaseState : BaseState
     
     public override Type Action()
     {
+        if (enemy.isAudioEnabled)
+        {
+            enemy.gameObject.GetComponent<AudioSource>().clip = enemy.GetComponent<Monster>().scream;
+            enemy.gameObject.GetComponent<AudioSource>().Play();
+            enemy.isAudioEnabled = false;
+        }
+
         if (this.enemy.Target.Equals(null))
         {
             Debug.Log("going back to wandering");
