@@ -178,6 +178,10 @@
           </e>
         </e>
         <e p="scripts" t="Include">
+          <e p="Chair_Puzzle" t="Include">
+            <e p="ChairInteract.cs" t="Include" />
+            <e p="Chairs.cs" t="Include" />
+          </e>
           <e p="ChangeScene.cs" t="Include" />
           <e p="CoffeeEvent.cs" t="Include" />
           <e p="coffeeInteract.cs" t="Include" />

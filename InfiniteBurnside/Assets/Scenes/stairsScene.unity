@@ -666,6 +666,11 @@ PrefabInstance:
       propertyPath: speed
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 8772562338631983394, guid: a74d266a038fa88468cd7c0ceb163833,
+        type: 3}
+      propertyPath: gravity
+      value: 1000
+      objectReference: {fileID: 0}
     - target: {fileID: 8772562338631983399, guid: a74d266a038fa88468cd7c0ceb163833,
         type: 3}
       propertyPath: m_LocalPosition.x

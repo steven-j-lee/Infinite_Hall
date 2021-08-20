@@ -22,46 +22,11 @@
     <list default="true" id="cc27343c-a485-48ef-b47a-315078f33901" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.InfiniteBurnside/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InfiniteBurnside/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.InfiniteBurnside/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InfiniteBurnside/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Materials/Bench.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Materials/Bench.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Materials/black_book.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Materials/black_book.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Materials/brick.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Materials/brick.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Materials/keyboard_texture.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Materials/keyboard_texture.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Materials/train_texture_inside.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Materials/train_texture_inside.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Hallway.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Hallway.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/In_subway.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/In_subway.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Subway.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Subway.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Subway/LightingData.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Subway/LightingData.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Subway/ReflectionProbe-0.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Subway/ReflectionProbe-0.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/entrance.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/entrance.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/lobby_test_scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/lobby_test_scene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/stairsScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/stairsScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/test/New Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/test/New Scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/prefabs/ceilling_lights.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefabs/ceilling_lights.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/prefabs/playerR 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefabs/playerR 1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/DemonEntities/EndGameScripts/DropDemon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/DemonEntities/EndGameScripts/DropDemon.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/DemonEntities/hand_ghost/GhostEventManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/DemonEntities/hand_ghost/GhostEventManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/DemonEntities/hand_ghost/GhostHand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/DemonEntities/hand_ghost/GhostHand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/MoveWorm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/MoveWorm.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/Player/CameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/Player/CameraController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/Player/CameraRayCast.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/Player/CameraRayCast.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/Player/Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/Player/Movement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/Player/PlayerStatsInit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/Player/PlayerStatsInit.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/ScriptableObjects/Main_Player.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/ScriptableObjects/Main_Player.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/ScriptableObjects/Rose_Data.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/ScriptableObjects/Rose_Data.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/StairsSystem/ProceduralStairs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/StairsSystem/ProceduralStairs.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/StairsSystem/Stairs/Popup1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/StairsSystem/Stairs/Popup1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/StairsSystem/Stairs/Popup2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/StairsSystem/Stairs/Popup2.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/UI/MainUICommands.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/UI/MainUICommands.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/enemy1/AttackState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/enemy1/AttackState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/enemy1/ChaseState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/enemy1/ChaseState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/enemy1/Monster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/enemy1/Monster.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/enemy1/WanderState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/enemy1/WanderState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefabs/doorevent_prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefabs/doorevent_prefab.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +64,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/scripts/ChangeScene.cs" />
       <option value="$PROJECT_DIR$/Assets/scripts/Shader/pixelation.shader" />
       <option value="$PROJECT_DIR$/Assets/scripts/minigame/MilkFactory.cs" />
       <option value="$PROJECT_DIR$/Assets/scripts/minigame/CartonFactory.cs" />
@@ -150,6 +114,7 @@
       <option value="$PROJECT_DIR$/Assets/scripts/DemonEntities/hand_ghost/GhostEventManager.cs" />
       <option value="$PROJECT_DIR$/Assets/scripts/DemonEntities/hand_ghost/GhostHand.cs" />
       <option value="$PROJECT_DIR$/Assets/scripts/Player/PlayerStatsInit.cs" />
+      <option value="$PROJECT_DIR$/Assets/scripts/Chair_Puzzle/Chairs.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1haOI0v5Sys0N3lcV54T27Pn8rF" />
@@ -236,6 +201,8 @@
       <workItem from="1628652488373" duration="14130000" />
       <workItem from="1628672039776" duration="129000" />
       <workItem from="1628716690661" duration="847000" />
+      <workItem from="1628718015064" duration="183000" />
+      <workItem from="1629244445185" duration="4052000" />
     </task>
     <servers />
   </component>
