@@ -1,6 +1,6 @@
-# Infinite_Burnside
+# Infinite_Hall
 
-Game created over the Summer 2020, inspired by the university's urband legend.
+Horror game inspired by the university's urband legend.
 
 With over 500 downloads on itch.io, it features random jump scares, an AI with a randomized heuristic and a procedural stairs systems.
 
